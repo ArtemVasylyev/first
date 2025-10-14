@@ -2,17 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5; /* Світло-сірий фон, схожий на зображення */
+    background-color: #f0f2f5; 
 }
 
 header {
-    background-color: #007bff; /* Яскраво-синій фон для шапки */
+    background-color: #007bff; 
     color: white;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #dc3545; /* Червона лінія під шапкою */
+    border-bottom: 2px solid #dc3545; 
 }
 
 header h1 {
@@ -49,7 +49,7 @@ form {
 }
 
 form h2 {
-    color: #007bff; /* Синій заголовок "Реєстрація користувача" */
+    color: #007bff; 
     margin-top: 0;
     margin-bottom: 25px;
 }
@@ -88,7 +88,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #343a40; /* Темно-сірий фон для футера */
+    background-color: #343a40; 
     color: white;
     text-align: center;
     padding: 20px;
