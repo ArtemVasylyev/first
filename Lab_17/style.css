@@ -1,0 +1,56 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+h1 {
+    color: #4a4a4a;
+    text-align: center;
+}
+#game-output {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 300px;
+}
+#game-feedback {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 15px;
+    min-height: 30px;
+}
+#win-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#attempts-log {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+#attempts-log li {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    color: #555;
+}
+#attempts-log li.correct {
+    color: #28a745;
+    font-weight: bold;
+}
+#attempts-log li.incorrect {
+    color: #dc3545;
+}
